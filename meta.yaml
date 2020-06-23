@@ -1,0 +1,25 @@
+package:
+  name: tensorflow-mgroth0-mac
+  version: "2.2.0"
+
+source:
+  path: /tmp/tensorflow_pkg
+
+build:
+  script: pip install tensorflow_mgroth0_mac-2.2.0-cp38-cp38-macosx_10_15_x86_64.whl
+
+requirements:
+  build:
+    - python 3.8.*
+    - pip
+  run:
+    - python 3.8.*
+
+test:
+  imports:
+    - tensorflow
+
+about:
+  home: http://tensorflow.org/
+  license: Apache 2.0
+  summary: TensorFlow helps the tensors flow
