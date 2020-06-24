@@ -14,23 +14,23 @@ requirements:
     - pip
   run:
     - python 3.8.*
-    - scipy
-    - tensorboard
-    - termcolor
-    - opt-einsum
-    - grpcio
-    - gast
-    - protobuf
-    - wrapt
-    - h5py
-    - wheel
-    - keras-preprocessing
-    - numpy
-    - tensorflow-estimator
-    - google-pasta
-    - absl-py
-    - astunparse
-    - six
+    - scipy 1.4.1
+#    - tensorboard
+#    - termcolor
+#    - opt-einsum
+#    - grpcio
+#    - gast
+    - protobuf 3.12.3
+#    - wrapt
+#    - h5py
+    - wheel 0.34.2
+#    - keras-preprocessing
+    - numpy 1.18.5
+#    - tensorflow-estimator
+#    - google-pasta
+#    - absl-py
+#    - astunparse
+    - six 1.15.0
 
 test:
   imports:
